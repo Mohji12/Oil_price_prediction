@@ -3,6 +3,8 @@ import streamlit as st
 import joblib
 import pandas as pd 
 
+st.image("oil-price-predictions.png",channels='RGB',output_format="PNG")
+
 # Load the saved Random Forest model
 model = joblib.load('random_forest_model_save14.pkl')
 

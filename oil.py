@@ -6,7 +6,7 @@ import pandas as pd
 # Load the saved Random Forest model
 model = joblib.load('random_forest_model_save14.pkl')
 
-st.header('Oil Price Prediction Using Random Forest',divider='rainbow')
+st.header('Oil Price Prediction Day Wise',divider='rainbow')
 
 # Input features for prediction
 
@@ -27,7 +27,7 @@ st.write('Predicted Oil Price:', prediction[0])
 st.info(
     "This Streamlit app presents the entire Oil Price Prediction project. "
     "It includes data preprocessing, exploratory data analysis (EDA)"
-    "ARIMA modeling and Random Forest Model. Adjust the settings in the sidebar to predict future oil prices using ARIMA."
+    "Adjust the settings in the sidebar to predict future oil prices using Random Forest Day wise Oil price."
 )
 
 
